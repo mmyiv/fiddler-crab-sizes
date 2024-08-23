@@ -10,5 +10,8 @@ editor_options:
 install.packages("lterdatasampler")
 library(lterdatasampler)
 library(tidyverse)
+
+ggplot(data=pie_crab, aes( x = size, y = latitude))+
+  geom_point()
 ```
 
