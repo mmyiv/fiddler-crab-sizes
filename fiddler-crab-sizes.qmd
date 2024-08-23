@@ -1,0 +1,14 @@
+---
+title: "fiddler-crab-sizes"
+author: "mish"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+install.packages("lterdatasampler")
+library(lterdatasampler)
+library(tidyverse)
+```
+
